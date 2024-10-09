@@ -1,0 +1,30 @@
+[0.301s] Invoking command in '/home/ubuntu/ros-/ros2_ws/src/my_robot_controller': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/root/myenv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /root/myenv/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build install --record /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.373s] /root/myenv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.373s]   warnings.warn(msg)
+[0.408s] running egg_info
+[0.408s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[0.413s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.414s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.414s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.414s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.414s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.426s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.426s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.426s] running build
+[0.426s] running build_py
+[0.427s] creating /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.427s] copying my_robot_controller/__init__.py -> /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.427s] running install
+[0.430s] running install_lib
+[0.435s] creating /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[0.436s] copying /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[0.436s] byte-compiling /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/__init__.py to __init__.cpython-312.pyc
+[0.436s] running install_data
+[0.436s] creating /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.436s] copying resource/my_robot_controller -> /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.436s] copying package.xml -> /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.436s] running install_egg_info
+[0.442s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[0.442s] running install_scripts
+[0.477s] writing list of installed files to '/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log'
+[0.491s] Invoked command in '/home/ubuntu/ros-/ros2_ws/src/my_robot_controller' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/root/myenv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /root/myenv/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build install --record /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

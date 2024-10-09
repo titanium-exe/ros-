@@ -1,0 +1,22 @@
+[0.292s] Invoking command in '/home/ubuntu/ros-/ros2_ws/src/my_robot_controller': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/root/myenv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /root/myenv/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build install --record /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.400s] running egg_info
+[0.406s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.406s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.406s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.406s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.419s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.419s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.419s] running build
+[0.419s] running build_py
+[0.419s] copying my_robot_controller/__init__.py -> /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.419s] running install
+[0.422s] running install_lib
+[0.429s] running install_data
+[0.429s] copying resource/my_robot_controller -> /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.429s] copying package.xml -> /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.429s] running install_egg_info
+[0.436s] removing '/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[0.436s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[0.437s] running install_scripts
+[0.472s] writing list of installed files to '/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log'
+[0.486s] Invoked command in '/home/ubuntu/ros-/ros2_ws/src/my_robot_controller' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/root/myenv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(myenv) /root/myenv/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build install --record /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
