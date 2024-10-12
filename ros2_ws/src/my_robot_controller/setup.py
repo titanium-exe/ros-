@@ -21,6 +21,8 @@ setup(
     'test': ['pytest'],},
     entry_points={
         'console_scripts': [
+            'test_node = my_robot_controller.my_first_node:main'
         ],
     },
 )
+
