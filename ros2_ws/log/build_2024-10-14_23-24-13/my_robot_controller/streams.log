@@ -1,0 +1,31 @@
+[0.338s] Invoking command in '/home/ubuntu/ros-/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[0.476s] running develop
+[0.476s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.476s] !!
+[0.476s] 
+[0.476s]         ********************************************************************************
+[0.476s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.476s]         Instead, use pypa/build, pypa/installer or other
+[0.476s]         standards-based tools.
+[0.476s] 
+[0.476s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.476s]         ********************************************************************************
+[0.476s] 
+[0.476s] !!
+[0.476s]   easy_install.initialize_options(self)
+[0.553s] running egg_info
+[0.560s] writing my_robot_controller.egg-info/PKG-INFO
+[0.560s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.560s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.560s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.560s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.574s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.574s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.582s] running build_ext
+[0.582s] Creating /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[0.582s] Installing draw_cycle script to /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.582s] Installing test_node script to /home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.582s] 
+[0.582s] Installed /home/ubuntu/ros-/ros2_ws/build/my_robot_controller
+[0.582s] running symlink_data
+[0.599s] Invoked command in '/home/ubuntu/ros-/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros-/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros-/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros-/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
